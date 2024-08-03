@@ -88,4 +88,15 @@
     }
 }
 
+#services {
+    background-color: var(--color-gray-100);
+    padding-block: 88px 120px;
 
+    .grid-services {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin-top: 56px;
+    }
+
+}

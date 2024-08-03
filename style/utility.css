@@ -46,3 +46,28 @@
 
 
 }
+
+.card {
+    width: 280px;
+    border: 2px solid var(--color-gray-300);
+    padding: 20px;
+    border-radius: 12px;
+
+    img {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 27px;
+    }
+    
+    h3 {
+        font: var(--title-sm);
+        color: var(--color-gray-600);
+        margin-bottom: 8px;
+    }
+    
+    p {
+        font: var(--text-sm);
+        color: var(--color-gray-500);
+    }
+    
+}
