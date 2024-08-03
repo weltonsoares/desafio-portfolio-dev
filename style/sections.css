@@ -74,3 +74,18 @@
 
 }
 
+#projects {
+    display: grid;
+    justify-content: center;
+    padding-block: 72px 140px;
+
+    #portfolio {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        width: 1040px;
+        margin-top: 56px;
+    }
+}
+
+
