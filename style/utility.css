@@ -71,3 +71,29 @@
     }
     
 }
+
+.socialbutton {
+    display: flex;
+    align-content: center;
+    gap: 12px;
+    width: 400px;
+    padding: 20px;
+    background-color: var(--color-gray-300);
+    border-radius: 8px;
+    position: relative;
+
+    img {
+        width: 28px;
+    }
+
+    p {
+        font: var(--text-md);
+        color: var(--color-gray-500);
+    }
+
+    .seta {
+        position: absolute;
+        right: 20px;
+    }
+
+}
